@@ -1,32 +1,4 @@
-/* Atividade 2
-
-
-O sistema trabalhará com 2 tabelas tb_pizza(atributos 5) e tb_categoria(fk_key e 3 atributos).
-siga exatamente esse passo a passo:
-
-Crie uma tabela de categorias utilizando a habilidade de abstração e determine 3 atributos
-relevantes do tb_categoria para se trabalhar com o serviço dessa pizzaria.
-
-Popule esta tabela Categoria com até 5 dados.
-
-Popule esta tabela pizza com até 8 dados.
-
-Faça um select que retorne os Produtos com o valor maior do que 45 reais.
-
-Faça um select trazendo os Produtos com valor entre 29 e 60 reais.
-
-Faça um select utilizando LIKE buscando os Produtos com a letra C.
-
-Faça um um select com Inner join entre tabela categoria e pizza.
-
-Faça um select onde traga todos os Produtos de uma categoria específica (exemplo todos
-os produtos que são pizza doce).
-salve as querys para cada uma dos requisitos o exercício em um arquivo .SQL ou texto e
-coloque no seu GitHuB pessoal e compartilhe esta atividade.*/
-
-create database db_pizzaria_legal;
-use db_pizzaria_legal;
-/*O sistema trabalhará com 2 tabelas tb_pizza(atributos) e tb_categoria(fk_key e 3 atributos).*/
+/* Atividade 2 */
 create table tb_pizza(
 id_pedido bigint auto_increment,
 pizza_sabor varchar(30),
