@@ -43,4 +43,3 @@ SELECT * FROM tb_produto WHERE preco > 50;
 SELECT * FROM tb_produto WHERE preco BETWEEN 3 AND 60;
 SELECT * FROM tb_produto WHERE nome LIKE "%B%";
 SELECT * FROM tb_produto INNER JOIN tb_categoria ON tb_categoria.id = tb_produto.categoria_id;
-SELECT * FROM tb_produto INNER JOIN tb_categoria ON tb_categoria.id = tb_produto.categoria_id WHERE tb_categoria.id = 3;
